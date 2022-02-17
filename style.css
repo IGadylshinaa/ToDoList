@@ -1,0 +1,103 @@
+body {
+    background-color: #7ebd84;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.new-task {
+    background-color: #c18f60;
+    width: 280px;
+    height: 160px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.input-dotw, .input-task {
+    background-color: antiquewhite;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 280px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.input-date {
+    background-color: antiquewhite;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.task {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 280px;
+    height: 180px;
+    margin: 0px 10px 30px 20px;
+}
+.dowt {
+    background-color: #c18f60;
+    border-bottom: 1px solid #000;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 30px;
+}
+.date {
+    margin: 0px;
+    padding-right: 10px;
+    text-decoration: 1px underline #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.tasks {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cards-of-tasks, .cards-of-tasks2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+    border-bottom: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new-task p {
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.save-task {
+    background-color: antiquewhite;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin: 0px 0px 10px 35px;
+}
